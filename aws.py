@@ -18,7 +18,8 @@ import requests
 
 class EC2RequestBuilder:
 
-    EC2_API_ENDPOINT = "ec2.amazonaws.com"
+
+    EC2_API_ENDPOINT = "ec2.us-east-1.amazonaws.com"
     EC2_API_VERSION = "2012-12-01"
 
     def __init__(self, action, key, hsm, endpoint=EC2_API_ENDPOINT):
